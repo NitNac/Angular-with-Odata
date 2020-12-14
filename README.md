@@ -1,7 +1,12 @@
 # SndOdata
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
+prerequisite :
+1. npm i
+2. npm install bootstrap --save
+3. install angular/material ( https://v5.material.angular.io/guide/getting-started ) Or remove it from app.module.ts
 
+else remove angular material form APP.MODULE.TS
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
