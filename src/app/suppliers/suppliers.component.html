@@ -1,0 +1,18 @@
+<div class="container-flex">
+    <table class="table table-bordered">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Location</th>
+        </tr>
+        <tr *ngFor="let supplier of supplier_data">
+            <td>{{supplier.Name}}</td>
+            <td>{{supplier.Address.Street}}, {{supplier.Address.City}}, {{supplier.Address.State}}, {{supplier.Address.ZipCode}}, {{supplier.Address.Country}}</td>
+            <td>
+                <ul *ngFor="let coordinat of supplier.Location.coordinates">
+                    <p>{{coordinat}}</p>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</div>

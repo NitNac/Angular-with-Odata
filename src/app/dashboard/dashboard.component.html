@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img height=45px width=60px class="mr-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPGoEUkydVMgN8xH4OeoZ4tt9CGdyCW0Y2oA&usqp=CAU" alt="NN"> NitNaCart
+        </a>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" routerLinkActive="active" routerLink="/products" style="color: white;">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLinkActive="active" routerLink="/about" style="color: white;">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLinkActive="active" routerLink="/suppliers" style="color: white;">Our Suppliers</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div>
+    <img src="https://graffitiwallpaper.com/pics/listings/362_wide.jpg" alt="" style="height: 600px; width: 99%; object-fit:cover;" id="LandingImage">
+    <h1 style="position: absolute; left: 35px; top: 400px;font-size: xxx-large;color: darkgray;" id="LandingText">Welcome NitNaCart</h1>
+    <div class="container text-center">
+        <router-outlet></router-outlet>
+    </div>
+</div>
